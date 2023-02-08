@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Work+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <title>CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Work Experience</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container main-container">
+    <div class="side-container">
+      <div class="side-profile">
+        <img src="assets/img/profile_photo.jpg" alt="Aliaksandr Siatsko" class="side-profile-photo">
+      </div>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item">E-mail: <a href="mailto:alsetko@gmail.com" class="contact-link">alsetko@gmail.com</a>
+          </li>
+          <li class="section-item">Telegram: <a href="https://t.me/setko" class="contact-link"
+              target="_blank">@setko</a></li>
+          <li class="section-item">Tel.: <a href="tel:+375295319365" class="contact-link">+375 (29) 531-93-65</a></li>
+          <li class="section-item">Discord: stq#0657</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p class="education-item">Belarusian State University,<br>2015 &#8211; 2020</p>
+        <p class="education-description">Faculty of Applied Informatics<br>and Computer Science, Applied Cryptography
+        </p>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="language-list">
+          <li class="language-item">Belarusian (Native)</li>
+          <li class="language-item">Russian (Native)</li>
+          <li class="language-item">English (A2+/B1)</li>
+        </ul>
+      </section>
+    </div>
+    <div class="wide-container">
+      <img src="assets/img/profile_photo.jpg" alt="Aliaksandr Siatsko" class="wide-profile wide-profile-photo">
+      <section class="section profile-main" id="profile">
+        <h1>Aliaksandr Siatsko</h1>
+        <p>Junior DevOps Engineer</p>
+      </section>
+      <section class="section" id="summary">
+        <h2>Summary</h2>
+        <p>Creative and goal-oriented DevOps engineer with over 2 years of experience in system engineering. Passionate
+          about automation of routine tasks.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">Operation systems: Debian, Ubuntu, Windows Server 2012/2016/2019.</li>
+          <li class="skills-item">Version control systems: Git / GitHub.</li>
+          <li class="skills-item">Scripting languages: Bash, Python.</li>
+          <li class="skills-item">Cloud providers: AWS, DigitalOcean.</li>
+          <li class="skills-item">Web servers: NGINX, Apache.</li>
+          <li class="skills-item">IaC and configuration management: Ansible, Terraform.</li>
+          <li class="skills-item">CI/CD: Jenkins, AWS CodePipeline, GitHub Actions.</li>
+          <li class="skills-item">Database engines: MySQL, PostgreSQL, Redis.</li>
+          <li class="skills-item">Containerization: Docker / Docker Compose.</li>
+          <li class="skills-item">Monitoring: Grafana, Loki, Prometheus.</li>
+        </ul>
+      </section>
+      <section class="section" id="experience">
+        <h2>Work Experience</h2>
+        <h4>Nov '22 &#8211; Feb '23 // Trainee DevOps Engineer</h4>
+        <h5>PlaysDev @ Minsk, Belarus</h5>
+        <ul class="experience-list">
+          <li class="experience-item">Configuring services using AWS resources (EC2, ECS, RDS, S3, etc.).</li>
+          <li class="experience-item">Deploying and configuring NGINX and Apache web servers.</li>
+          <li class="experience-item">Writing Bash and Python scripts to solve practical problems.</li>
+          <li class="experience-item">Deploying and configuring virtual machines and infrastructure using IaC and
+            automation tools (Terraform, Ansible).</li>
+          <li class="experience-item">Producing CI/CD with Jenkins and AWS CodePipeline.</li>
+          <li class="experience-item">Deploying containerized applications with Docker.</li>
+          <li class="experience-item">Deploying and supporting monitoring systems based on Grafana, Loki, Prometheus.
+          </li>
+        </ul>
+        <h4>Jul '20 &#8211; Oct '22 // System Administrator</h4>
+        <h5>Ministry of Foreign Affairs @ Minsk, Belarus</h5>
+        <ul class="experience-list">
+          <li class="experience-item">Configuring and administering physical and virtual servers working on Windows
+            Server 2012/2016/2019 and Debian.</li>
+          <li class="experience-item">Deploying VPN servers and configuring connection between remote hosts using IPSec.
+          </li>
+          <li class="experience-item">Installing and configuring virtualization systems based on Proxmox.</li>
+          <li class="experience-item">Deploying and managing DNS, DHCP, NTP and other networking services.</li>
+          <li class="experience-item">Managing routing tables (Cisco).</li>
+          <li class="experience-item">Administering Windows domain, installing software to server and client machines,
+            supporting users.</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <span class="copyright">© 2023 <a href="https://github.com/stqpro" class="copyright-link"
+          target="_blank">stqpro</a></span>
+    </div>
+  </footer>
+</body>
+
+</html>
